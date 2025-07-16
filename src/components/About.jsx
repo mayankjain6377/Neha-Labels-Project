@@ -1,7 +1,9 @@
 import React from "react";
 import '../App.css'; // Make sure your Tailwind styles are loaded
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <section className="min-h-screen bg-white text-[#1e293b] px-6 md:px-20 py-16 font-sans flex flex-col md:flex-row items-center justify-between gap-10">
       
@@ -20,9 +22,12 @@ const About = () => {
           With a strong commitment to sustainability and style, we support your brand with impactful label solutions that make your product stand out.
         </p>
 
-        <button href="#contact" onClick={() => window.location.href = '/contact'} className="bg-blue-500 text-white text-lg px-6 py-3 shadow-lg rounded-sm hover:bg-blue-900 transition duration-200">
-          Enquiry for Custom Labels
-        </button>
+<button
+  onClick={() => navigate('/contact')}
+  className="bg-blue-500 text-white text-lg px-6 py-3 shadow-lg rounded-sm hover:bg-blue-900 transition duration-200"
+>
+  Enquiry for Custom Labels
+</button>
       </div>
       <div className="md:w-1/2 flex items-center justify-center">
         {/* Replace src with your image path later */}
