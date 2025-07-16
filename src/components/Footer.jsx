@@ -1,7 +1,11 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, Phone, Mail, MapPin, ChevronUp } from 'lucide-react';
 import logo from '../assets/logo2.png'; // Adjust the path as necessary
+import { useNavigate } from 'react-router-dom';
+
+
 export default function AtamFooter() {
+  const navigate = useNavigate();
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -23,7 +27,7 @@ export default function AtamFooter() {
             </div>
             
             <div className="mb-6">
-              <h3 onClick={() => window.location.href = '/about'} className="text-lg font-semibold mb-3">ABOUT US</h3>
+              <h3 onClick={() => navigate('/about')} className="text-lg font-semibold mb-3">ABOUT US</h3>
               <p className="text-gray-300 text-sm leading-relaxed">
                 "NEHA LABEL" is India's leading label manufacturer and supplier for last 3 decades.
               </p>
@@ -55,12 +59,12 @@ export default function AtamFooter() {
                 </a>
               </li>
               <li>
-                <a onClick={() => window.location.href = '/about'} className="text-gray-300 hover:text-teal-500 transition-colors">
+                <a onClick={() => navigate('/about')} className="text-gray-300 hover:text-teal-500 transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-teal-500 transition-colors">
+                <a onClick={() => navigate('/services')} className="text-gray-300 hover:text-teal-500 transition-colors">
                   Product
                 </a>
               </li>
@@ -75,7 +79,7 @@ export default function AtamFooter() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-teal-500 transition-colors">
+                <a onClick={() => navigate('/contact')} className="text-gray-300 hover:text-teal-500 transition-colors">
                   Contact Us
                 </a>
               </li>

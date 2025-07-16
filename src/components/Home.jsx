@@ -1,68 +1,3 @@
-// import React from "react";
-// import '../App.css'
-// import logo from '../assets/logo2.png'; 
-// const Home = () => {
-//   return (
-//     <div className="min-h-screen text-white font-sans">
-//         <style>
-//         {`
-//           @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
-          
-//           .edu-nsw-act-cursive {
-//             font-family: "Edu NSW ACT Cursive", cursive;
-//             font-optical-sizing: auto;
-//             font-weight: 600;
-//             font-style: normal;
-//           }
-//         `}
-//       </style>  
-//       {/* Navbar */}
-//       <header className="flex items-center justify-between px-6 py-4     shadow-md">
-//         <div className="edu-nsw-act-cursive text-xl font-bold tracking-wide">
-//           <img src={logo} alt="Neha Labels Logo"  className="h-16 inline  mr-2" />
-//           Neha Labels
-//         </div>
-//         <nav className="space-x-6 text-lg font-medium">
-//           <a href="#" className="hover:text-blue-400">Home</a>
-//           <a href="#" className="hover:text-blue-400">Services</a>
-//           <a href="#" className="hover:text-blue-400">About</a>
-//           <a href="#" className="hover:text-blue-400">Contact</a>
-//         </nav>
-//       </header>
-
-//       {/* Hero Section */}
-//       <main className="flex flex-col-reverse md:flex-row items-center justify-between px-6 py-20 gap-12">
-//         {/* Left: Image */}
-//         <div className="w-full md:w-1/2">
-         
-//         </div>
-
-//         {/* Right: Text Content */}
-//         <div className="w-full md:w-1/2 text-center md:text-left">
-//           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-//             YOUR BRANDING PARTNER <br />
-//             <span className="edu-nsw-act-cursive text-blue-400 ml-8 ">Neha Labels 🏷️</span>
-//           </h1>
-//           <p className="text-lg text-gray-300 mb-6">
-//             Empowering your brand with <span className="text-white font-semibold">eco-conscious, high-quality, and custom label solutions</span> that truly represent your product’s identity.
-//           </p>
-//           <div className="flex justify-center md:justify-start gap-4">
-//             <button className="cursor-pointer bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-md text-white">
-//               Explore
-//             </button>
-//             <button className="cursor-pointer border border-white hover:bg-white hover:text-black px-6 py-2 rounded-md">
-//               Order Now
-//             </button>
-//           </div>
-//         </div>
-//       </main>
-//     </div>
-//     );
-// };
-
-// export default Home;
-
-
 
 
 import React, { useState } from "react";
@@ -74,8 +9,11 @@ import Footer from "./Footer";
 import StickerCatalog from "./StickerCatalog.jsx";
 import PartnersBanner from "./PartnersBanner.jsx";
 import CustomerTestimonials from "./CustomerTestimonials.jsx";
+import { useNavigate } from 'react-router-dom';
+
 
 const Home = () => {
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -104,10 +42,10 @@ const Home = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 text-lg font-medium">
-          <a href="#home" onClick={() => window.location.href = '/'} className="hover:text-blue-400">Home</a>
-          <a href="#services" onClick={() => window.location.href = '/services'} className="hover:text-blue-400">Services</a>
-          <a href="#about" onClick={() => window.location.href = '/about'} className="hover:text-blue-400">About</a>
-          <a href="#contact" onClick={() => window.location.href = '/contact'} className="hover:text-blue-400">Contact</a>
+          <a onClick={() => navigate('/')} className="cursor-pointer hover:text-blue-400">Home</a>
+          <a onClick={() => navigate('/services')} className="cursor-pointer hover:text-blue-400">Services</a>
+          <a onClick={() => navigate('/about')} className="cursor-pointer hover:text-blue-400">About</a>
+          <a onClick={() => navigate('/contact')} className="cursor-pointer hover:text-blue-400">Contact</a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -129,18 +67,18 @@ const Home = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
-        {menuOpen && (
-  <div className="absolute top-20 left-0 w-full bg-[#0f172a]/70 backdrop-blur-md text-center py-6 space-y-4 md:hidden shadow-xl rounded-b-xl">
-    <a href="#home" onClick={() => window.location.href = '/'} className="block text-lg font-medium hover:text-blue-400">Home</a>
-    <a href="#services" onClick={() => window.location.href = '/services'} className="block text-lg font-medium hover:text-blue-400">Services</a>
-    <a href="#about" onClick={() => window.location.href = '/about'} className="block text-lg font-medium hover:text-blue-400">About</a>
-    <a href="#contact" onClick={() => window.location.href = '/contact'} className="block text-lg font-medium hover:text-blue-400">Contact</a>
-  </div>
-)}
-      </header>
+       { /* Mobile Menu */}
+          {menuOpen && (
+          <div className="absolute top-20 left-0 w-full bg-[#0f172a]/70 backdrop-blur-md text-center py-6 space-y-4 md:hidden shadow-xl rounded-b-xl">
+            <a onClick={() => navigate('/')} className="block text-lg font-medium hover:text-blue-400">Home</a>
+            <a onClick={() => navigate('/services')} className="block text-lg font-medium hover:text-blue-400">Services</a>
+            <a onClick={() => navigate('/about')} className="block text-lg font-medium hover:text-blue-400">About</a>
+            <a onClick={() => navigate('/contact')} className="block text-lg font-medium hover:text-blue-400">Contact</a>
+          </div>
+        )}
+              </header>
 
-      {/* Hero Section */}
+              {/* Hero Section */}
       <main className="flex flex-col-reverse md:flex-row items-center justify-between px-6 py-20 gap-12">
         {/* Left Image (optional, currently empty) */}
         <div className="w-full md:w-1/2" />
@@ -155,10 +93,10 @@ const Home = () => {
             Empowering your brand with <span className="text-white font-semibold">eco-conscious, high-quality, and custom label solutions</span> that truly represent your product’s identity.
           </p>
           <div className="flex justify-center md:justify-start gap-4">
-            <button className="cursor-pointer bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-md text-white">
+            <button onClick={() => navigate('/services')} className="cursor-pointer bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-md text-white">
               Explore
             </button>
-            <button className="cursor-pointer border border-white hover:bg-white hover:text-black px-6 py-2 rounded-md">
+            <button onClick={() => navigate('/contact')} className="cursor-pointer border border-white hover:bg-white hover:text-black px-6 py-2 rounded-md">
               Order Now
             </button>
           </div>
@@ -167,9 +105,7 @@ const Home = () => {
 
     
       {/* Footer (optional) */}
-      {/* <footer className="bg-gray-800 text-white text-center py-4 mt-12">
-        <p className="text-sm">   © 2023 Neha Labels. All rights reserved.</p>
-      </footer> */}
+     
       <About  /> {/* Include About component here if needed */}
       <StickerCatalog /> 
       <PartnersBanner /> 
