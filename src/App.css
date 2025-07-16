@@ -2,3 +2,24 @@
 /* body {
    background-color: aliceblue;
 } */
+ /* App.css */
+
+.background-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.2);
+}
+
+/* Media query fix for mobile */
+@media (max-width: 768px) {
+  .background-banner {
+    height: 1200px /* Use dynamic viewport height on mobile */
+  }
+}

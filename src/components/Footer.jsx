@@ -153,7 +153,7 @@ export default function AtamFooter() {
               <p className="text-gray-400 text-sm">
                 © Copyright 2025 NEHA LABEL. All Rights Reserved.
                 <br />
-                <span className="text-white font-semibold mr-4">Developed by <a href="https://bento.me/mayank-jain" className='text-green-400'>Mayank jain</a> & <a href="https://www.linkedin.com/in/sumit-jain-1274bb256/" className='text-green-400'>Sumit jain</a></span>
+                <span className="text-white font-semibold mr-4">Developed by <a href="https://bento.me/mayank-jain" className='text-teal-400'>Mayank jain</a> & <a className='text-teal-400' href="https://www.linkedin.com/in/sumit-jain-1274bb256/" >Sumit jain</a></span>
               </p>
             </div>
           </div>
