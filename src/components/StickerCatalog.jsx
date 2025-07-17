@@ -189,7 +189,7 @@ export default function StickerCatalog() {
       name: "Card Tags",
       quantity: 1,
       price: 170.0,
-      image: "https://api.designprintnyc.com/public/uploads/images/Pearl%20Hang%20Tags%202.jpg",
+      image: "https://img.freepik.com/premium-psd/tag-label-mockup_760209-25.jpg",
       category: "Promotional",
       features: ["Fashion Sale", "Up to 60% Off"],
       description: "Eye-catching window display stickers",

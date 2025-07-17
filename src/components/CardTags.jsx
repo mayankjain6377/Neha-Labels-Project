@@ -7,7 +7,7 @@ export default function CardTags() {
   const products = [
   {
     id: 1,
-    name: "Urban Thread Label",
+    name: "Garments Paper Tag",
     image: "https://i.pinimg.com/736x/73/f2/78/73f278bc79c058dd1b8d76a0f4368ccf.jpg",
     category: "Custom",
     features: ["100% Cotton", "Handmade Finish"],
@@ -15,7 +15,7 @@ export default function CardTags() {
   },
   {
     id: 2,
-    name: "Taffeta Luxe Label",
+    name: "Garments Paper Tag",
     quantity: 10,
     price: 150.0,
     image: "https://5.imimg.com/data5/NC/HD/MY-3105668/hang-tags-500x500.jpeg",
@@ -25,7 +25,7 @@ export default function CardTags() {
   },
   {
     id: 3,
-    name: "Window Display Tag - Autumn",
+    name: "Garments Paper Tag",
     quantity: 1,
     price: 170.0,
     image: "https://4.imimg.com/data4/DQ/TV/MY-19283290/garment-hanging-tag.jpg",
@@ -35,7 +35,7 @@ export default function CardTags() {
   },
   {
     id: 4,
-    name: "RetroFit Denim Tag",
+    name: "Garments Paper Tag",
     quantity: 1,
     price: 210.0,
     image: "https://img.freepik.com/premium-psd/three-fashion-label-tag-mockups_53876-565809.jpg?semt=ais_hybrid&w=740",
@@ -45,7 +45,7 @@ export default function CardTags() {
   },
   {
     id: 5,
-    name: "AthletiCore Brand Label",
+    name: "Garments Paper Tag",
     quantity: 1,
     price: 65.0,
     image: "https://5.imimg.com/data5/SELLER/Default/2024/12/477526732/KU/GU/VP/76028347/waterproof-label-stickers-printing-services.jpg",
@@ -55,7 +55,7 @@ export default function CardTags() {
   },
   {
     id: 6,
-    name: "AutoMode Apparel Tag",
+    name: "Garments Paper Tag",
     quantity: 5,
     price: 240.0,
     image: "https://lsmedia.linker-cdn.net/956733/2024/12810272.jpeg",
@@ -65,7 +65,7 @@ export default function CardTags() {
   },
   {
     id: 7,
-    name: "SafeWear Instruction Label",
+    name: "Garments Paper Tag",
     quantity: 1,
     price: 200.0,
     image: "https://tonaton.com/r/cGljdHVyZXMtZ2hhbmEuamlqaXN0YXRpYy5uZXQ/43015254_NjIwLTkzMi1hNDEzY2QzZTBi.webp",
@@ -75,7 +75,7 @@ export default function CardTags() {
   },
   {
     id: 8,
-    name: "Minimalist Sew-On Tag",
+    name: "Garments Paper Tag",
     quantity: 1,
     price: 200.0,
     image: "https://i.pinimg.com/736x/8b/78/c0/8b78c069ae57b5b64ed489dd204e293b.jpg",
@@ -85,7 +85,7 @@ export default function CardTags() {
   },
   {
     id: 9,
-    name: "Organic Wear Neck Tag",
+    name: "Garments Paper Tag",
     quantity: 1,
     price: 200.0,
     image: "https://static.vecteezy.com/system/resources/previews/039/381/118/non_2x/hang-tag-label-and-price-tag-apparel-care-label-design-innovation-garments-accessories-sustainability-packaging-design-and-vintage-fashion-product-vector.jpg",

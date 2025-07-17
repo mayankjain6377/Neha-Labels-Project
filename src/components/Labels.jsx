@@ -16,7 +16,7 @@ export default function Labels() {
     },
     {
       id: 2,
-      name: "Taffeta Labels",
+      name: "Taffeta Size Labels",
       image: "https://images.meesho.com/images/products/429901137/rhrvx_512.webp",
       category: "Business",
       features: ["Professional", "Durable"],
@@ -24,7 +24,7 @@ export default function Labels() {
     },
     {
       id: 3,
-      name: "Window Labels",
+      name: "Kinori Satin Labels",
 
       image: "https://5.imimg.com/data5/SELLER/Default/2022/11/XY/UB/TV/53826591/plain-taffeta-rolls-250x250.jpg",
       category: "Promotional",
@@ -41,7 +41,7 @@ export default function Labels() {
     },
     {
       id: 5,
-      name: "Fashion Labels",
+      name: "Taffeta Labels",
   
       image: "https://5.imimg.com/data5/SELLER/Default/2024/1/377364315/BQ/FF/KT/152548444/barcode-label-500x500.jpg",
       category: "Sports",
@@ -60,7 +60,7 @@ export default function Labels() {
     },
     {
       id: 7,
-      name: "Floor Labels - Social Distancing",
+      name: "Satin Labels",
       quantity: 1,
       price: 200.0,
       image: "https://image.made-in-china.com/365f3j00ZiehElKGnVbM/Custom-Demand-Woven-Care-Neck-Labels-Single-Sided-Polyester-Screen-Printing-Satin-Printed-Care-Label-for-Garment.webp",
@@ -70,7 +70,7 @@ export default function Labels() {
     },
     {
       id: 8,
-      name: "Safety Labels",
+      name: "Kinori Satin Labels",
       quantity: 1,
       price: 200.0,
       image: "https://i.ebayimg.com/images/g/faoAAOSwf2dexTPT/s-l1200.jpg",

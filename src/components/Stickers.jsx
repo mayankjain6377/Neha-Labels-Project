@@ -15,7 +15,7 @@ export default function Stickers() {
   },
   {
     id: 2,
-    name: "Sandra Darren Stickers",
+    name: "Woven Lables",
     image: "https://content.jdmagicbox.com/quickquotes/images_main/mtc0nzgxndi2mq-1747814261-svc3t0yg.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit",
     category: "Business",
     features: ["Professional", "Durable"],
@@ -41,7 +41,7 @@ export default function Stickers() {
   },
   {
     id: 5,
-    name: "Branding Stickers",
+    name: "Cotten Lables",
     image: "https://www.packnest.com/cdn/shop/files/garment_labels_packnest_533x.jpg?v=1745219779",
     category: "Sports",
     features: ["Royal United", "Est. 2020"],
@@ -49,7 +49,7 @@ export default function Stickers() {
   },
   {
     id: 6,
-    name: "Custom Car Stickers",
+    name: "Woven Lables",
     quantity: 5,
     price: 240.0,
     image: "https://5.imimg.com/data5/SELLER/Default/2025/3/499614818/RJ/FL/QJ/12155239/apparel-labeling-solutions.jpg",
@@ -59,7 +59,7 @@ export default function Stickers() {
   },
   {
     id: 7,
-    name: "Fashion unique Stickers",
+    name: "Cotten Lables",
   
     image: "https://5.imimg.com/data5/ANDROID/Default/2023/9/342617918/KN/ZC/TC/195389030/product-jpeg-500x500.jpg",
     category: "Safety",
@@ -68,7 +68,7 @@ export default function Stickers() {
   },
   {
     id: 8,
-    name: "Clothing Brand Labels",
+    name: "Woven Lables",
     image: "https://image.made-in-china.com/202f0j00wOeiRHGcSnqj/Design-Custom-Private-Clothing-Brand-Print-Logo-Fabric-Label-Low-MOQ-Woven-Labels.webp",
     category: "Automotive",
     features: ["sensitive", "For Sensitive Skin"],
@@ -76,7 +76,7 @@ export default function Stickers() {
   },
   {
     id: 9,
-    name: "Custom Car Door Decals",
+    name: "Woven Lables",
   
     image: "https://sc04.alicdn.com/kf/H75ce98d356604162aa5eec1940f9ab4ai.jpg",
     category: "Automotive",
